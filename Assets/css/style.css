@@ -215,3 +215,34 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media only screen and (max-width: 980px) {
+    body {
+        width:60%;
+    }
+    #masthead {
+        padding-right: 30px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        width:100%;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    body {
+        background-color: lightblue;
+    }
+    .auth-image {
+        width:100%;
+    }
+    #logo {
+        width:100%;
+    }
+    nav {
+        position:-50px;
+
+    }
+}
